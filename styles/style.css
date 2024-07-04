@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1:#E65EAF;
+    --color2:#5EDCE6;
+    --color3:#E5CD38;
+    --color4:#918853;
+    --color5:#664B5B;
+}
+
+header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
