@@ -18,3 +18,17 @@ section#servicos > div{
 section#servicos h2{
     text-align: center;
 }
+
+section#produtos{
+    
+}
+
+section#section_footer{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+section#section_creditos{
+    text-align: center;
+}

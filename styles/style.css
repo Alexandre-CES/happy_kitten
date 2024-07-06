@@ -6,11 +6,26 @@
 }
 
 :root{
-    --color1:#E65EAF;
+    --color1:#ea7ee4;
     --color2:#5EDCE6;
-    --color3:#E5CD38;
+    --color3:#fef77f;
     --color4:#918853;
     --color5:#664B5B;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-track {
+    background-color: var(--color5);      
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 3px solid var(--color4);
+}
+
+main{
+    padding: 5px;
 }
 
 img{
@@ -26,6 +41,10 @@ h1{
     text-align: center;
 }
 
+ul{
+    list-style-type: none;
+}
+
 header{
     display: flex;
 
@@ -36,7 +55,5 @@ header{
 nav ul{
     display: flex;
     justify-content: space-evenly;
-
-    list-style-type: none;
 }
 
