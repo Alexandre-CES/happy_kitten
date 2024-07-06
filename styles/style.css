@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,9 +13,26 @@
     --color5:#664B5B;
 }
 
+img{
+    width: 300px;
+    height: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+
 header{
     display: flex;
 
     justify-content: center;
     align-items: center;
 }
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style-type: none;
+}
+
