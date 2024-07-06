@@ -1,0 +1,20 @@
+section#inicio{
+    text-align: center;
+}
+
+div#inicio_top_box{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+section#servicos > div{
+    display: flex;
+
+}
+
+section#servicos h2{
+    text-align: center;
+}
