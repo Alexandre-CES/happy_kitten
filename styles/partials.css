@@ -1,3 +1,8 @@
+header img{
+    width: 80px;
+    height: 80px;
+}
+
 section#inicio{
     text-align: center;
 }
@@ -13,14 +18,43 @@ div#inicio_top_box{
 section#servicos > div{
     display: flex;
 
+    padding: 5px;
+}
+
+section#servicos > div > div{
+    flex-basis: 50%;
 }
 
 section#servicos h2{
     text-align: center;
 }
 
+div#servico_banho{
+    background-color: var(--color2);
+}
+
+div#servico_massagem{
+    background-color: var(--color1);
+}
+
+div#servico_diversao{
+    background-color: var(--color3);
+}
+
 section#produtos{
+   
+}
+
+section#produtos > div{
+    margin: auto;
+    max-width: 300px;
+
     
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
 }
 
 section#section_footer{
