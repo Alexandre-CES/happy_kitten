@@ -3,6 +3,8 @@ header img{
     height: 80px;
 }
 
+/* INICIO */
+
 section#inicio{
     text-align: center;
 }
@@ -15,10 +17,14 @@ div#inicio_top_box{
     
 }
 
+/* SERVIÇOS */
+
 section#servicos > div{
     display: flex;
+}
 
-    padding: 5px;
+section#servicos > div > div{
+    padding: 5px 10px;
 }
 
 section#servicos > div > div{
@@ -41,6 +47,8 @@ div#servico_diversao{
     background-color: var(--color3);
 }
 
+/* PRODUTOS */
+
 section#produtos{
    
 }
@@ -52,9 +60,13 @@ section#produtos > div{
     
 }
 
+footer{
+    max-width: 100%;
+}
+
 footer img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 section#section_footer{
