@@ -26,13 +26,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 main{
-    padding: 5px;
 
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
 }
 
 section{
     margin-top: 30px;
+
+    padding: 5px;
 }
 
 img{
