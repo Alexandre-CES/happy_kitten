@@ -10,8 +10,8 @@
     --color1:#ea7ee4;
     --color2:#5EDCE6;
     --color3:#fef77f;
-    --color4:#918853;
-    --color5:#664B5B;
+    --color4:#180727;
+    --color5:#1d1224;
 }
 
 body::-webkit-scrollbar{
@@ -43,6 +43,10 @@ img{
 
 a{
     text-decoration: none;
+}
+
+p{
+    padding: 10px 0px;
 }
 
 h1{
