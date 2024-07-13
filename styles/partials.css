@@ -110,6 +110,12 @@ section#produtos > div p{
     border-top: 1px solid var(--color4);
 }
 
+/* SOBRE NÓS */
+section#sobre-nos{
+    padding: 10px;
+}
+
+
 /* FOOTER */
 
 footer{
@@ -126,6 +132,8 @@ section#section_footer{
     display: flex;
     
     justify-content: space-evenly;
+
+    padding: 20px 0px;
 }
 
 section#section_footer h3{

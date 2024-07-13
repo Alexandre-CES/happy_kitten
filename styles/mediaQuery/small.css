@@ -1,0 +1,48 @@
+
+@media screen and (min-width: 490px){
+
+    div#inicio_top_box{
+        padding: 10px 10px 15px;
+        font-size: 1em;
+    }
+
+
+    div#inicio_top_box img{
+        width: 200px;
+        height: 200px;
+    }
+
+    div#inicio_bottom_box{
+        padding: 15px;
+    }
+}
+
+nav li{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+section#sobre-nos{
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+footer h3{
+    font-size: 1.8em;
+}
+
+footer li{
+    font-size: 1.3em;
+}
+
+div#redes ul{
+    columns: 2;
+}
+
+section#section_footer ul img{
+    width: 35px;
+    height: 35px;
+}
+
+section#section_creditos{
+    font-size: 1.1em;
+}
