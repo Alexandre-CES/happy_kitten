@@ -96,6 +96,10 @@ div#servico_diversao{
 
 /* PRODUTOS */
 
+section#produtos{
+    padding-bottom: 10px;
+}
+
 section#produtos > div{
     max-width: 300px;
     margin: 10px auto;
@@ -133,6 +137,8 @@ section#section_footer{
     
     justify-content: space-evenly;
 
+    margin: 0px;
+
     padding: 20px 0px;
 }
 
@@ -161,7 +167,9 @@ div#contatos ul li{
 }
 
 section#section_creditos{
+    margin: 0px;
     text-align: center;
+    border-radius: 0px;
 
     color: var(--color1);
     background-color: var(--color5);

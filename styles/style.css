@@ -31,9 +31,7 @@ main{
 }
 
 main section{
-    margin-top: 30px;
-
-    padding: 5px;
+    margin-top: 50px;
 }
 
 img{
@@ -67,5 +65,9 @@ header{
 nav ul{
     display: flex;
     justify-content: space-evenly;
+}
+
+section{
+    margin: 20px 0px;
 }
 
