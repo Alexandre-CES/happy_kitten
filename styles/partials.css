@@ -147,7 +147,7 @@ section#section_footer{
     padding: 20px 0px;
 }
 
-section#section_footer h3{
+footer h3{
     font-size: 1.5em;
 }
 
@@ -160,7 +160,7 @@ section#section_footer ul li{
     text-align: center;
 }
 
-section#section_footer ul img{
+footer ul img{
     width: 20px;
     height: 20px;
 
