@@ -105,6 +105,10 @@ footer{
         font-size: 1.6em;
     }
 
+    section#inicio{
+        font-size: 1.3em;
+    }
+
     div#inicio_top_box{
         padding-bottom: 30px;
     }
