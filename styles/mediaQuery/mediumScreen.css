@@ -1,0 +1,14 @@
+section#produtos{
+    font-size: 1.5em;
+}
+
+section#produtos > div{
+
+    flex-flow: row;
+
+    border: 0px solid var(--color4);
+}
+
+section#produtos > div > div{
+    border: 1px solid var(--color4);
+}
