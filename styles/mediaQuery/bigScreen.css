@@ -16,10 +16,6 @@ main{
     max-width: 1500px;
 }
 
-div#redes h3{
-    text-align: center;
-}
-
 div#redes ul{
     columns: 4;
 }

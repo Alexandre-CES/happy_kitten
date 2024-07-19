@@ -67,8 +67,16 @@ nav ul{
     justify-content: space-evenly;
 }
 
+nav li a:hover{
+    color: var(--color2);
+}
+
 section{
     margin: 100px 0px;
     border:1px solid var(--color5);
+}
+
+div#redes h3{
+    text-align: center;
 }
 
