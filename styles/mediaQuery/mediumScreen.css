@@ -12,3 +12,22 @@ section#produtos > div{
 section#produtos > div > div{
     border: 1px solid var(--color4);
 }
+
+@media screen and (min-width:1300px){
+    section#inicio{
+        margin: 80px 30px;
+    }
+    
+    section#servicos{
+        margin: 30px;
+    }
+
+    section#servicos h2{
+        margin-bottom: 20px;
+    }
+
+    section#sobre-nos{
+        margin: 30px;
+    }
+    
+}

@@ -35,11 +35,23 @@
 
     section{
         border-radius: 15px;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.281);
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.221);
     }
 
     section#inicio{
         padding: 0px;
+    }
+
+    div#inicio_top_box{
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    div#inicio_bottom_box{
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    div#servico_diversao{
+        border-radius: 0px 0px 15px 15px;
     }
 
     footer h3{

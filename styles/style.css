@@ -69,5 +69,6 @@ nav ul{
 
 section{
     margin: 20px 0px;
+    border:1px solid var(--color5);
 }
 
