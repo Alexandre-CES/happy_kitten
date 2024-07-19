@@ -137,19 +137,19 @@ section#produtos{
 
 @media screen and (max-width: 489px) {
     section#produtos{
-        margin: 10px 30px;
+        margin: 100px 30px;
     }
 }
 
 @media screen and (min-width:490px) and (max-width: 549px) {
     section#produtos{
-        margin: 10px 50px;
+        margin: 100px 50px;
     }
 }
 
 @media screen and (min-width:550px) and (max-width: 599px){
     section#produtos{
-        margin: 10px 80px;
+        margin: 100px 80px;
     }
 }
 

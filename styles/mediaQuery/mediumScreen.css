@@ -15,11 +15,11 @@ section#produtos > div > div{
 
 @media screen and (min-width:1300px){
     section#inicio{
-        margin: 80px 30px;
+        margin: 100px 30px;
     }
     
     section#servicos{
-        margin: 30px;
+        margin: 100px;
     }
 
     section#servicos h2{
@@ -27,7 +27,7 @@ section#produtos > div > div{
     }
 
     section#sobre-nos{
-        margin: 30px;
+        margin: 100px;
     }
     
 }
