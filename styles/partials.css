@@ -89,7 +89,13 @@ div#servico_banho{
 }
 
 div#servico_massagem{
-    background-color: var(--color1);
+    background-image: linear-gradient(
+        to bottom,
+        var(--color2) 0%, 
+        var(--color1) 5%, 
+        var(--color1) 95%, 
+        var(--color3) 100%
+    );
 }
 
 div#servico_diversao{
