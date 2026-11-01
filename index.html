@@ -1,183 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a Happy Kitten, um projeto fictício de cuidados para gatos, com serviços de banho, massagem, diversão e produtos para felinos.">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/classes.css">
-    <link rel="stylesheet" href="styles/partials.css">
-    <link rel="stylesheet" href="styles/mediaQuery/mobile.css" media="screen and (min-width:400px)">
-    <link rel="stylesheet" href="styles/mediaQuery/tablet.css" media="screen and (min-width:600px)">
-    <link rel="stylesheet" href="styles/mediaQuery/smallScreen.css" media="screen and (min-width:900px)">
-    <link rel="stylesheet" href="styles/mediaQuery/mediumScreen.css" media="screen and (min-width:1200px)">
-    <link rel="stylesheet" href="styles/mediaQuery/bigScreen.css" media="screen and (min-width:1500px)">
-    <title>Desafio PD</title>
+    <link rel="icon" type="image/png" href="./image/logotipo-happykitten.png">
+    <title>Happy Kitten</title>
 </head>
 <body>
-    <!-- O header é onde fica a Logo -->
-    <header>
-        <h1>Happy</h1>
-        <div>
-            <img src="./image/logotipo-happykitten.png" alt="Logotipo do happy kitten">
+    <header class="site-header">
+        <div class="brand">
+            <a href="#inicio" aria-label="Happy Kitten — início">
+                <span class="brand-name">Happy</span>
+                <img src="./image/logotipo-happykitten.png" alt="">
+                <span class="brand-name">Kitten</span>
+            </a>
         </div>
-        <h1>Kitten</h1>
     </header>
 
-    <!-- Navegação:
-        -lista não ordenada
-        -link para outras partes do arquivo
-    -->
-    <nav>
+    <nav class="site-nav" aria-label="Navegação principal">
         <ul>
-            <li>
-                <a href="#inicio">Início</a>
-            </li>
-            <li>
-                <a href="#servicos">Serviços</a>
-            </li>
-            <li>
-                <a href="#produtos">Produtos</a>
-            </li>
-            <li>
-                <a href="#sobre-nos">Sobre-nós</a>
-            </li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#sobre-nos">Sobre nós</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="inicio">
-            <div id="inicio_top_box">
-                <h2>Quer ver seu amigo feliz?</h2>
-                <div>
-                    <img src="./image/gato-sorrindo-jae-park.jpg" alt="Foto de gato sorrindo">
-                    <!-- https://unsplash.com/pt-br/fotografias/gato-tabby-marrom-7GX5aICb5i4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash -->
+        <section id="inicio" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Quer ver seu amigo feliz?</h1>
+                <div class="hero-image">
+                    <img src="./image/gato-sorrindo-jae-park.jpg" alt="Gato sorrindo">
+                    <!-- Foto: https://unsplash.com/pt-br/fotografias/gato-tabby-marrom-7GX5aICb5i4 -->
                 </div>
             </div>
-            <div id="inicio_bottom_box">
+            <div class="hero-tagline">
                 <h2>Então veio ao lugar certo!</h2>
+                <a class="hero-cta" href="mailto:contato@example.com?subject=Agendamento%20de%20atendimento">Agendar atendimento</a>
             </div>
         </section>
 
-        <section id="servicos">
-            <h1>Serviços</h1>
+        <section id="servicos" aria-labelledby="services-title">
+            <h2 id="services-title">Serviços</h2>
 
-            <div id="servico_banho">
+            <article class="service-card service-card--bath">
                 <div class="service-image-box">
                     <img src="./image/gato-banho-karin-chantanaprayura.jpg" alt="Gato tomando banho">
                 </div>
-                <div>
-                    <h2>Banho</h2>
+                <div class="service-content">
+                    <h3>Banho</h3>
                     <p>Oferecemos banhos especiais para gatos, utilizando produtos específicos que respeitam a pele e o pelo do seu pet, garantindo higiene e bem-estar.</p>
                 </div>
-            </div>
-            <div id="servico_massagem">
-                <div>
-                    <h2>Massagem</h2>
+            </article>
+
+            <article class="service-card service-card--massage">
+                <div class="service-content">
+                    <h3>Massagem</h3>
                     <p>Proporcionamos massagens relaxantes para gatos, ajudando a reduzir o estresse e melhorar a circulação, proporcionando uma experiência tranquila e agradável.</p>
                 </div>
                 <div class="service-image-box">
                     <img src="./image/gato-massagem-shvetsa.jpg" alt="Gato recebendo massagem">
                 </div>
-            </div>
-            <div id="servico_diversao">
+            </article>
+
+            <article class="service-card service-card--play">
                 <div class="service-image-box">
                     <img src="./image/gato-brincando-petrebels.jpg" alt="Gato brincando">
-                    <!-- https://unsplash.com/pt-br/fotografias/gato-tabby-marrom-7GX5aICb5i4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash -->
                 </div>
-                <div>
-                    <h2>Diversão</h2>
+                <div class="service-content">
+                    <h3>Diversão</h3>
                     <p>Temos um espaço dedicado para a diversão dos gatos, com brinquedos interativos e atividades que estimulam o instinto natural de brincar e explorar.</p>
                 </div>
-            </div>
-
+            </article>
         </section>
 
-        <!-- Produtos:
-            -cada section > div representa um produto
-            -cada produto tem: imagem, nome, preço
-        -->
-        <section id="produtos">
-            <h1>Produtos</h1>
-            <div>
-                <div>
-                    <div class="produtos_img_box">
-                        <img src="./image/racao-muhammad-abdullah.jpg" alt="Imagem de uma ração de gato apetitosa">
-                        <!-- https://br.freepik.com/psd-gratuitas/bolinha-de-comida-para-animais-de-estimacao-isolada-sobre-um-fundo-transparente_143489866.htm#fromView=search&page=1&position=4&uuid=5d374c41-bd41-4a74-b788-3b72372c3e57 -->
+        <section id="produtos" aria-labelledby="products-title">
+            <h2 id="products-title">Produtos</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./image/racao-muhammad-abdullah.jpg" alt="Tigela com ração para gatos">
                     </div>
-                    <p>Ração sabor peixe happy kittens 5Kg</p>
-                    <strong><p>R$59,99</p></strong>
-                </div>
-                <div>
-                    <div class="produtos_img_box">
+                    <h3 class="product-name">Ração sabor peixe Happy Kittens 5 kg</h3>
+                    <p class="product-price"><strong>R$59,99</strong></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
                         <img src="./image/kitbanho-taylor-beach.jpg" alt="Kit de banho para gatos">
-                        <!-- https://unsplash.com/pt-br/fotografias/tres-garrafas-de-locao-sentadas-em-uma-mesa-ao-lado-de-um-vaso-de-planta-kwu9Ny5dKOE -->
+                        <!-- Foto: https://unsplash.com/pt-br/fotografias/tres-garrafas-de-locao-sentadas-em-uma-mesa-ao-lado-de-um-vaso-de-planta-kwu9Ny5dKOE -->
                     </div>
-                    <p>Kit de banho para gatos</p>
-                    <strong><p>R$88,95</p></strong>
-                </div>
-                <div>
-                    <div class="produtos_img_box">
-                        <img src="./image/brinquedos-macrovector.jpg" alt="kit de brinquedos para gatos">
-                        <!-- https://br.freepik.com/vetores-gratis/acessorios-para-gatos-com-icones-isolados-planos-de-brinquedos-de-bandejas-de-areia-de-transportadores-de-animais-e-varios-gatos-ilustracao-vetorial_33771949.htm#query=acessorios%20gatos&position=0&from_view=keyword&track=ais_user&uuid=7ed2435a-466e-44e3-af0e-3fc4c1ef29f3 -->
+                    <h3 class="product-name">Kit de banho para gatos</h3>
+                    <p class="product-price"><strong>R$88,95</strong></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./image/brinquedos-macrovector.jpg" alt="Brinquedos variados para gatos">
                     </div>
-                    <p>kit de briquedos para gatos</p>
-                    <strong><p>R$35,97</p></strong>
-                </div>
-                <div>
-                    <div class="produtos_img_box">
-                        <img src="./image/roupa-gato-Hammad-Khalid.jpg" alt="kit de roupas para gatos">
-                        <!-- https://www.pexels.com/pt-br/foto/animal-bicho-animal-de-estimacao-pet-7288641/ -->
+                    <h3 class="product-name">Kit de brinquedos para gatos</h3>
+                    <p class="product-price"><strong>R$35,97</strong></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./image/roupa-gato-Hammad-Khalid.jpg" alt="Gato vestindo uma roupa">
+                        <!-- Foto: https://www.pexels.com/pt-br/foto/animal-bicho-animal-de-estimacao-pet-7288641/ -->
                     </div>
-                    <p>kit de roupas com 5 roupas para gatos</p>
-                    <strong><p>R$105,91</p></strong>
-                </div>
+                    <h3 class="product-name">Kit de roupas com 5 peças para gatos</h3>
+                    <p class="product-price"><strong>R$105,91</strong></p>
+                </article>
+            </div>
+            <div class="image-credits" aria-label="Créditos das imagens">
+                <p>Imagem da ração: <a href="https://br.freepik.com/psd-gratuitas/bolinha-de-comida-para-animais-de-estimacao-isolada-sobre-um-fundo-transparente_143489866.htm" target="_blank" rel="noopener noreferrer">Muhammad Abdullah no Freepik</a>.</p>
+                <p>Ilustração dos brinquedos: <a href="https://br.freepik.com/vetores-gratis/acessorios-para-gatos-com-icones-isolados-planos-de-brinquedos-de-bandejas-de-areia-de-transportadores-de-animais-e-varios-gatos-ilustracao-vetorial_33771949.htm" target="_blank" rel="noopener noreferrer">macrovector no Freepik</a>.</p>
             </div>
         </section>
 
-        <!-- sobre nós:
-            -resumo do que a empresa faz    
-        -->
-        <section id="sobre-nos">
-            <div>
-                <h1>Sobre nós</h1>
-            </div>
-            <div>
-                <P>Somos apaixonados por gatos e dedicados a oferecer serviços de alta qualidade para o bem-estar dos felinos. Nossa equipe é formada por profissionais experientes e carinhosos, prontos para cuidar do seu pet com todo o amor e atenção que ele merece.</P>
-            </div>
+        <section id="sobre-nos" aria-labelledby="about-title">
+            <h2 id="about-title">Sobre nós</h2>
+            <p>Somos apaixonados por gatos e dedicados a oferecer serviços de alta qualidade para o bem-estar dos felinos. Nossa equipe é formada por profissionais experientes e carinhosos, prontos para cuidar do seu pet com todo o amor e atenção que ele merece.</p>
         </section>
     </main>
-    <footer>
 
-        <!--Informações:
-            -divididos em três divs: contato, logotipo, redes sociais 
-        -->
-        <section id="section_footer">
-            <div id="contatos">
-                <h3>Contatos</h3>
-                <ul>
-                    <li>happyKitten@gmail.com</li>
-                    <li>(99)99999-9999</li>
-                    <li>(88)8888-8888</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./image/logotipo-happykitten.png" alt="Foto com logotipo do happy kitten">
-            </div>
-            <div id="redes">
-                <h3>Redes</h3>
-                <ul>
-                    <li><a href="#"><img src="./image/redes/facebook.png" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="./image/redes/instagram.jpg" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="./image/redes/youtube.jpg" alt="Youtube"></a></li>
-                    <li><a href="#"><img src="./image/redes/twitter.jpg" alt="Twitter"></a></li>
-                </ul>
-            </div>
-        </section>
+    <footer id="contato">
+        <div class="footer-content">
+            <section class="footer-group" aria-labelledby="contact-title">
+                <h2 id="contact-title">Contatos</h2>
+                <address>
+                    <ul>
+                        <li><a href="mailto:contato@example.com">contato@example.com</a></li>
+                        <li>Telefone: a definir</li>
+                    </ul>
+                </address>
+                <p class="contact-note">Dados demonstrativos · projeto fictício de portfólio</p>
+            </section>
 
-        <!--Autor-->
-        <section id="section_creditos">
+            <div class="footer-brand">
+                <a href="#inicio" aria-label="Happy Kitten — voltar ao início">
+                    <img src="./image/logotipo-happykitten.png" alt="Happy Kitten">
+                </a>
+            </div>
+
+            <section class="footer-group footer-social" aria-labelledby="social-title">
+                <h2 id="social-title">Redes</h2>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="./image/redes/facebook.png" alt=""></a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="./image/redes/instagram.jpg" alt=""></a></li>
+                    <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="./image/redes/youtube.jpg" alt=""></a></li>
+                    <li><a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="./image/redes/twitter.jpg" alt=""></a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="footer-credits">
             <p>Site desenvolvido por Alexandre Cabral - Aluno do Projeto desenvolve &copy;</p>
-        </section>  
+        </div>
     </footer>
 </body>
 </html>
